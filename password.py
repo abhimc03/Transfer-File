@@ -8,12 +8,12 @@ sender_password = "lrgn drft mqix kuxc"
 receiver_email = str(input("enter the email ="))
 
 subject = "Transfer File"
-body = ''' here->\n\n\n   \n\n\n<-tohere '''
+body = '''|         |'''
 
 message = MIMEMultipart()
 message["From"] = sender_email
 message["To"] = receiver_email
-message["Subject"] = "Login Credentials"
+message["Subject"] = "Text Share"
 message.attach(MIMEText(body, "plain"))
 
 try:
