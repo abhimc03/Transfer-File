@@ -8,7 +8,7 @@ sender_password = "lrgn drft mqix kuxc"
 receiver_email = str(input("enter the email ="))
 
 subject = "Transfer File"
-body = "The Password for Your Current Login is \n\n - "
+body = ''' here->\n\n\n   \n\n\n<-tohere '''
 
 message = MIMEMultipart()
 message["From"] = sender_email
