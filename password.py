@@ -3,11 +3,6 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import random
 
-# password=''
-# for i in range(8):
-#     password+=str(random.randint(0,9))
-# print(password)
-
 sender_email = "transferprotocal@gmail.com"
 sender_password = "lrgn drft mqix kuxc" 
 receiver_email = str(input("enter the email ="))
